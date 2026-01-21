@@ -1,48 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My-team</title>
-  <!--FONTS-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
-<!-- CSS -->
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<!-- HEADER START -->
-<header class="header">
-  <div class="container header__container">
-    <div class="header__left">
-      <a href="/">
-        <img src="images/header/logo.svg" alt="logo" width="159" height="40">
-      </a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My-team</title>
+		<!--FONTS-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+			rel="stylesheet" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- HEADER START -->
+		<header class="header">
+			<div class="container header__container">
+				<div class="header__left">
+					<a href="/">
+						<img src="images/header/logo.svg" alt="logo" width="159" height="40" />
+					</a>
 
-      <ul class="header__nav">
-        <li class="header__item">
-          <a href="/">home</a>
-        </li>
+					<ul class="header__nav">
+						<li class="header__item">
+							<a href="/">home</a>
+						</li>
 
-        <li class="header__item">
-          <a href="/about.html">about</a>
-        </li>
-      </ul>
-    </div>
+						<li class="header__item">
+							<a href="/about.html">about</a>
+						</li>
+					</ul>
+				</div>
 
-    <div class="header__right">
-      <a href="/contact.html">
-        <button class="btn">contact us</button>
-      </a>
-    </div>
+				<div class="header__right">
+					<a href="contact.html">
+						<button class="btn">contact us</button>
+					</a>
+				</div>
 
-    <img class="menu" src="images/header/menu.svg" alt="menu" width="20" height="17">
-  </div>
-</header>
-<!-- HEADER END -->
+				<button class="menu">
+					<img class="menu__img1" src="images/header/menu.svg" alt="menu" width="20" height="17" />
+				</button>
+			</div>
 
-<!-- HERO START -->
+			<div class="phone">
+				<button class="phone__close">
+					<img src="images/header/menu close.svg" alt="close menu" width="16" height="16" />
+				</button>
+
+				<ul class="phone__nav">
+					<li class="phone__item">
+						<a class="phone__link" href="/">home</a>
+					</li>
+					<li class="phone__item">
+						<a class="phone__link" href="/about.html">about</a>
+					</li>
+				</ul>
+
+				<a href="contact.html">
+          <button class="phone__btn">contact us</button>
+        </a>
+			</div>
+		</header>
+		<!-- HEADER END -->
+
+		<!-- HERO START -->
 <section class="hero">
   <img class="img1" src="images/HOMEE/hero/1.svg" alt="1" width="100" height="200">
   <div class="container hero__container">
@@ -54,9 +77,9 @@
     <img class="img2" src="images/HOMEE/hero/2.svg" alt="2" width="358" height="100">
   </div>
 </section>
-<!-- HERO END -->
+		<!-- HERO END -->
 
-<!-- BUILD START -->
+		<!-- BUILD START -->
 <section class="build">
     <div class="container build__container">
       <div class="build__left">
@@ -100,9 +123,9 @@
       </div>
       <img class="img3" src="images/HOMEE/buildd/1.svg" alt="img" width="100" height="244">
   </section>
-<!-- BUILD END -->
+		<!-- BUILD END -->
 
-<!-- STORY START -->
+		<!-- STORY START -->
 <section class="story">
   <img class="img4" src="images/HOMEE/story/1.svg" alt="" width="147" height="100">
   <div class="container">
@@ -134,9 +157,9 @@
     <img class="img5" src="images/HOMEE/story/2.svg" alt="1" width="200" height="200">
   </div>
 </section>
-<!-- STORY END -->
+		<!-- STORY END -->
 
-<!-- FOOTER TOP START -->
+		<!-- FOOTER TOP START -->
 <section class="footer-top">
   <div class="footer-top__container">
     <h1 class="footer-top__title">Ready to get started?</h1>
@@ -146,7 +169,7 @@
   </div>
   <img class="img6" src="images/footer/top-1.svg" alt="top1" width="200" height="244">
 </section>
-<!-- FOOTER START -->
+		<!-- FOOTER START -->
 <footer class="footer">
   <div class="container footer__container">
     <div class="footer__about">
@@ -201,6 +224,8 @@
     </div>
   </div>
 </footer>
-<!-- FOOTER END -->
-</body>
+		<!-- FOOTER END -->
+
+		<script src="script.js"></script>
+	</body>
 </html>
